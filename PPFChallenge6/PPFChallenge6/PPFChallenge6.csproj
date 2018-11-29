@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7D33AA1D-5322-49E1-BF89-FD2C0F3804F0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PPFChallenge6</RootNamespace>
+    <AssemblyName>PPFChallenge6</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MaineForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaineForm.Designer.cs">
+      <DependentUpon>MaineForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PraiseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PraiseForm.Designer.cs">
+      <DependentUpon>PraiseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PunishmentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PunishmentForm.Designer.cs">
+      <DependentUpon>PunishmentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SentenceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SentenceForm.Designer.cs">
+      <DependentUpon>SentenceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToDoListClass.cs" />
+    <EmbeddedResource Include="MaineForm.resx">
+      <DependentUpon>MaineForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PraiseForm.resx">
+      <DependentUpon>PraiseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="PunishmentForm.resx">
+      <DependentUpon>PunishmentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SentenceForm.resx">
+      <DependentUpon>SentenceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\ToDoData.csv" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Daibutu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\528.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miroku_400x400.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

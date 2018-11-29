@@ -1,0 +1,13 @@
+C:\Users\keiya\source\repos\PPFChallenge6\PPFChallenge6\bin\Debug\PPFChallenge6.exe.config
+C:\Users\keiya\source\repos\PPFChallenge6\PPFChallenge6\bin\Debug\PPFChallenge6.exe
+C:\Users\keiya\source\repos\PPFChallenge6\PPFChallenge6\bin\Debug\PPFChallenge6.pdb
+C:\Users\keiya\source\repos\PPFChallenge6\PPFChallenge6\obj\Debug\PPFChallenge6.Properties.Resources.resources
+C:\Users\keiya\source\repos\PPFChallenge6\PPFChallenge6\obj\Debug\PPFChallenge6.csproj.GenerateResource.cache
+C:\Users\keiya\source\repos\PPFChallenge6\PPFChallenge6\obj\Debug\PPFChallenge6.csproj.CoreCompileInputs.cache
+C:\Users\keiya\source\repos\PPFChallenge6\PPFChallenge6\obj\Debug\PPFChallenge6.exe
+C:\Users\keiya\source\repos\PPFChallenge6\PPFChallenge6\obj\Debug\PPFChallenge6.pdb
+C:\Users\keiya\source\repos\PPFChallenge6\PPFChallenge6\obj\Debug\PPFChallenge6.PraiseForm.resources
+C:\Users\keiya\source\repos\PPFChallenge6\PPFChallenge6\obj\Debug\PPFChallenge6.PunishmentForm.resources
+C:\Users\keiya\source\repos\PPFChallenge6\PPFChallenge6\obj\Debug\PPFChallenge6.SentenceForm.resources
+C:\Users\keiya\source\repos\PPFChallenge6\PPFChallenge6\obj\Debug\PPFChallenge6.MaineForm.resources
+C:\Users\keiya\source\repos\PPFChallenge6\PPFChallenge6\obj\Debug\PPFChallenge6.csprojAssemblyReference.cache
